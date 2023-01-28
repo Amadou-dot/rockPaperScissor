@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="board">
+        <div class="position border--b border--r" id="0">X</div>
+        <div class="position border--b border--r" id="1">O</div>
+        <div class="position border--b" id="2">X</div>
+        <div class="position border--b border--r" id="3">O</div>
+        <div class="position border--b border--r" id="4">X</div>
+        <div class="position border--b" id="5">O</div>
+        <div class="position border--r" id="6">X</div>
+        <div class="position border--r" id="7">O</div>
+        <div class="position" id="8">X</div>
+      </div>
+      <div class="score">
+        <p class="player-score player--0">
+          Player 1:
+          <span class="player--0-score">0</span>
+        </p>
+        <p class="player-score player--1">
+          Player 2: <span class="player--1-score">0</span>
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
