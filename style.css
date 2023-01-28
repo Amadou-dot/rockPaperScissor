@@ -55,8 +55,11 @@ body {
 }
 .score {
   font-family: 'Press Start 2P', cursive;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   color: rgb(150, 150, 150);
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
 }
 .player--0,
 .player--1 {
